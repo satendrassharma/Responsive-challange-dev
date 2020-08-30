@@ -7,3 +7,5 @@ responsive web design challenge by devchallenges.io
 [404-not-found page](https://satendra-responsive-devchallange.netlify.app/404-not-found-master/)
 
 [my-team-page-master](https://satendra-responsive-devchallange.netlify.app/my-team-page-master/)
+
+[interior-consultant-master](https://satendra-responsive-devchallange.netlify.app/interior-consultant-master/)
