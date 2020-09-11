@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* header  */
+.header {
+  margin-top: 50px;
+  margin-bottom: 43px;
+}
+
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+  width: 587px;
+}
+.header p {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+  width: 592px;
+}
+
+.dots {
+  margin-right: 10px;
+}
+/* section:header image  */
+.header-img {
+  margin-bottom: 50px;
+}
+
+/* section:main  */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.left__header {
+  font-family: " Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.instructions {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.left__subheader {
+  margin-top: 32px;
+  margin-bottom: 31px;
+  font-family: " Playfair Display", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+  margin-bottom: 13px;
+}
+
+label input {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+label p {
+  flex: 1;
+}
+
+.left__instruction__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 31px;
+}
+
+.left__instruction__number {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+  background: #f2994a;
+  border-radius: 6px;
+
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.left__instruction {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #000000;
+  flex: 1;
+}
+
+.sourcelink {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdbdbd;
+}
+
+.card__lists {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 57px 50px 0px 43px;
+}
+
+.card__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex: 1;
+}
+
+.material-icons {
+  font-size: 36px;
+}
+
+.card__info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.card__header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  color: #bdbdbd;
+}
+.card__time {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #333333;
+}
+
+.dining {
+  color: #f2994a;
+}
+
+/* footer  */
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .header {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .header p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .header-img {
+    margin-bottom: 24px;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .left__header {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+  }
+
+  .left__subheader {
+    font-size: 16px;
+    line-height: 21px;
+
+    margin-top: 20px;
+  }
+
+  .label {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .instructions {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .left__instruction {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .card__lists {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .card__list {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  .card__list:nth-child(1) {
+    flex-basis: 100%;
+  }
+
+  .material-icons {
+    font-size: 18px;
+  }
+
+  .card__header {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .card__time {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .sourcelink {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
