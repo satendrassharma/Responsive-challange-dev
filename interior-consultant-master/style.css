@@ -259,11 +259,16 @@ footer a {
 
   .nav__close {
     display: block;
-    font-size: 32px;
-    color: #ffffff;
     position: absolute;
     top: 0;
     right: 15px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .nav__close img {
+    width: 100%;
+    margin-top: 10px;
   }
 
   .nav__link {
@@ -273,8 +278,12 @@ footer a {
 
   .nav__hamburger {
     display: block;
-    color: white;
-    font-size: 28px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .nav__hamburger img {
+    width: 100%;
   }
 
   .main {
