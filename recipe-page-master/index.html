@@ -15,29 +15,30 @@
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
+
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
     <title>Recipe-page-master</title>
   </head>
   <body>
     <header class="container header">
-      <h1>Classic Cheesecake Recipe</h1>
-      <p>
-        <img src="./6dots.svg" alt="dots" class="dots" />Look no further for a
-        creamy and ultra smooth classic cheesecake recipe! Paired with a buttery
-        graham cracker crust, no one can deny its simple decadence. For the best
-        results, bake in a water bath.
+      <h1 class="header__title">Classic Cheesecake Recipe</h1>
+      <p class="header__article">
+        <img src="./6dots.svg" alt="dots" class="header__article__img" />Look no
+        further for a creamy and ultra smooth classic cheesecake recipe! Paired
+        with a buttery graham cracker crust, no one can deny its simple
+        decadence. For the best results, bake in a water bath.
       </p>
     </header>
-    <section class="container header-img ">
+    <section class="container cheesecake ">
       <img
         sizes="(max-width: 1400px) 100vw, 1400px"
         srcset="
@@ -240,13 +241,7 @@
       </div>
       <div class="right">
         <ul class="card__lists">
-          <li class="card__list ">
-            <!-- <img
-              src="./local_dining-24px.svg"
-              alt="local_dining"
-              class="dining"
-            /> -->
-
+          <li class="card__list">
             <i class="material-icons dining">local_dining</i>
             <div class="card__info">
               <p class="card__header">Yields</p>

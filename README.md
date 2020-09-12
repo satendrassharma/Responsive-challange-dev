@@ -9,3 +9,5 @@ responsive web design challenge by devchallenges.io
 [my-team-page-master](https://satendra-responsive-devchallange.netlify.app/my-team-page-master/)
 
 [interior-consultant-master](https://satendra-responsive-devchallange.netlify.app/interior-consultant-master/)
+
+[recipe-page-master](https://satendra-responsive-devchallange.netlify.app/recipe-page-master/)
