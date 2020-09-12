@@ -101,9 +101,6 @@ img {
   grid-gap: 20px;
 }
 
-.gallery__item {
-  background: red;
-}
 .gallery__item2,
 .gallery__item3 {
   grid-column: span 2;
