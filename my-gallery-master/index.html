@@ -17,16 +17,26 @@
     />
 
     <link
+      crossorigin
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
     <link rel="stylesheet" href="style.css" />
     <title>Devchallenges</title>
   </head>
   <body>
     <section class="container profile">
       <div class="profile__img__wrapper">
-        <img class="profile__img" src="./profilePhoto.png" alt="profilephoto" />
+        <img class="profile__img" src="./profilePhoto.jpg" alt="profilephoto" />
       </div>
       <h2 class="profile__name">Rodney Cotton</h2>
       <address class="profile__address">Helsinki,Finland</address>
