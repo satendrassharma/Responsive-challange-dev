@@ -51,6 +51,21 @@ ul {
   margin-bottom: 50px;
 }
 
+.cheesecake__wrapper {
+  width: 100%;
+  height: 0;
+  padding-top: 48.5%;
+  position: relative;
+}
+
+.cheesecake__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* section:main  */
 
 .main {
