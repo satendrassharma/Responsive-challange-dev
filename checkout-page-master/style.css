@@ -355,8 +355,21 @@ p.error-invalid {
 }
 
 .modal__btn:active {
-  /* box-shadow: 0; */
   transform: translateY(0px);
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  font-size: 0.78rem;
+  line-height: 0.94rem;
+
+  color: #a9a9a9;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
