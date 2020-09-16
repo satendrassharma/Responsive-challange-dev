@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      crossorigin
+      rel="preload"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <title>checkout-page-master</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="checkout">Checkout</h1>
+    </header>
+    <div class="container">
+      <main class="main">
+        <div class="cart">
+          <div class="cart__item">
+            <div class="cart__item-image">
+              <img src="./photo1.jpg" alt="item1" />
+            </div>
+            <div class="cart__item-detail">
+              <h4 class="cart__item-name">Vintage Backbag</h4>
+              <div class="cart__item-price">
+                <span class="cart__item-price--discounted">$54.99</span>
+                <span class="cart__item-price--original">$94.99</span>
+              </div>
+              <div class="cart__item-control">
+                <span class="cart__item-control-decrease" data-id="0">-</span>
+                <span class="cart__item-count">1</span>
+                <span class="cart__item-control-increase" data-id="0">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="cart__item">
+            <div class="cart__item-image">
+              <img src="./photo2.jpg" alt="item2" />
+            </div>
+            <div class="cart__item-detail">
+              <h4 class="cart__item-name">Levi Shoes</h4>
+              <div class="cart__item-price">
+                <span class="cart__item-price--discounted">$74.99</span>
+                <span class="cart__item-price--original">$124.99</span>
+              </div>
+              <div class="cart__item-control">
+                <span class="cart__item-control-decrease" data-id="1">-</span>
+                <span class="cart__item-count">1</span>
+                <span class="cart__item-control-increase" data-id="1">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="cart__summary">
+            <div class="cart__summary-item">
+              <p class="cart__summary-shipping">Shipping</p>
+              <p class="cart__summary-cost" id="shipping">$19</p>
+            </div>
+            <div class="cart__summary-item">
+              <p class="cart__summary-total">Total</p>
+              <p class="cart__summary-cost" id="Total">$148.98</p>
+            </div>
+          </div>
+        </div>
+        <form class="form" novalidate>
+          <div class="form__contact">
+            <h2 class="form__header">Contact Infomation</h2>
+            <div class="form__item">
+              <label for="email">Email</label>
+              <div class="input-wrapper">
+                <span class="material-icons">email</span>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                />
+              </div>
+              <p class="error">Email is required</p>
+              <p class=" error-invalid">Email is invalid</p>
+            </div>
+            <div class="form__item">
+              <label for="phone">Phone</label>
+              <div class="input-wrapper">
+                <span class="material-icons">call</span>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your phone..."
+                />
+              </div>
+              <p class="error">Phone is required</p>
+            </div>
+          </div>
+          <div class="form__shipping">
+            <h2 class="form__header">Shipping address</h2>
+            <div class="form__item">
+              <label for="full_name">Full Name</label>
+              <div class="input-wrapper">
+                <span class="material-icons">account_circle</span>
+                <input
+                  type="text"
+                  name="fullname"
+                  id="full_name"
+                  value="Rodney Cotton"
+                  placeholder="Enter your name..."
+                />
+              </div>
+              <p class="error">Name is required</p>
+            </div>
+            <div class="form__item">
+              <label for="address">Address</label>
+              <div class="input-wrapper">
+                <span class="material-icons">home</span>
+                <input
+                  type="text"
+                  name="address"
+                  id="address"
+                  placeholder="Your address.."
+                />
+              </div>
+              <p class="error">Address is required</p>
+            </div>
+            <div class="form__item">
+              <label for="city">City</label>
+              <div class="input-wrapper">
+                <span class="material-icons">location_city</span>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  placeholder="Your city.."
+                />
+              </div>
+              <p class="error">City is required</p>
+            </div>
+            <div class="form__inline">
+              <div class="form__item">
+                <label for="country">Country</label>
+                <div class="input-wrapper">
+                  <span class="material-icons">location_city</span>
+
+                  <select name="country" id="country">
+                    <option value="country">Your country..</option>
+                    <option value="india">india</option>
+                    <option value="america">america</option>
+                    <option value="russia">russia</option>
+                    <option value="japan">japan</option>
+                  </select>
+                </div>
+                <p class="error">Country is required</p>
+              </div>
+              <div class="form__item">
+                <label for="postal_code">Postal code</label>
+                <div class="input-wrapper">
+                  <span class="material-icons">markunread_mailbox</span>
+                  <input
+                    type="text"
+                    name="postalcode"
+                    id="postalcode"
+                    placeholder="Your postal code.."
+                  />
+                </div>
+                <p class="error">Postal code is required</p>
+              </div>
+            </div>
+            <div class="form__item form__item--flex">
+              <input type="checkbox" id="info" name="info" />
+              <label for="info">Save this information for next time</label>
+            </div>
+          </div>
+          <div class="form__submit">
+            <input type="submit" value="Continue" />
+          </div>
+        </form>
+      </main>
+    </div>
+    <div class="modal">
+      <div class="modal__body">
+        <h2 class="modal__header">Thank You</h2>
+        <p class="modal__text">Your order will come to you soon</p>
+        <button class="modal__btn">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
