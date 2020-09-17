@@ -15,3 +15,5 @@ responsive web design challenge by devchallenges.io
 [my-gallery-master](https://satendra-responsive-devchallange.netlify.app/my-gallery-master/)
 
 [checkout-page-master](https://satendra-responsive-devchallange.netlify.app/checkout-page-master/)
+
+[edie-homepage-master](https://satendra-responsive-devchallange.netlify.app/edie-homepage-master/)
